@@ -278,6 +278,16 @@
         <p>Station-trading and inter-region scanners: margins, real order-book depth, shipping cost per m³, 7-day trends — with hotkey-driven buy queues straight into the game.</p>
       </div>
       <div class="feature">
+        <span class="glyph">[DCA]</span>
+        <h3>Long-Term Investing</h3>
+        <p>Finds items trading well below their own normal price, splits a budget across them, and builds a buy-order ladder — backtested on each item's history, with sell targets and alerts once the price recovers.</p>
+      </div>
+      <div class="feature">
+        <span class="glyph">[CHART]</span>
+        <h3>Item Chart</h3>
+        <p>A trading terminal per item: candles, SMA / Bollinger / RSI, your own fills on the chart, real per-station Adam4EVE fills, your position with break-even, and the live order book. Right-click a row in Analysis, Orders or Alerts to open it.</p>
+      </div>
+      <div class="feature">
         <span class="glyph">[WATCH]</span>
         <h3>Order Babysitting</h3>
         <p>Sees when your orders get beaten, notifies you on the desktop, and one hotkey cycles the beaten ones — market window open, new beat price already on your clipboard.</p>
@@ -300,7 +310,7 @@
       <div class="feature">
         <span class="glyph">[LOCAL]</span>
         <h3>Yours, Locally</h3>
-        <p>EVE SSO login (OAuth2 + PKCE), tokens encrypted at rest, everything in a local SQLite database. No accounts, no telemetry, MIT-licensed.</p>
+        <p>EVE SSO login (OAuth2 + PKCE), tokens encrypted at rest, everything in a local SQLite database. No accounts, no telemetry, MIT-licensed. Interface in English and Russian.</p>
       </div>
     </div>
   </div>
@@ -430,6 +440,7 @@
     { src: 'screenshots/analysis.png', caption: 'Analysis — station-trading and inter-region opportunity scanners' },
     { src: 'screenshots/orders.png', caption: 'Orders — beaten-order detection, relist fees, FIFO inventory' },
     { src: 'screenshots/market_browser.png', caption: 'Market — regional order books and price history' },
+    { src: 'screenshots/item_chart.png', caption: 'Item chart — candles, SMA/Bollinger/RSI, your fills, Adam4EVE flow, position and order book' },
   ];
   const frame = document.getElementById('slider-frame');
   const dots = document.getElementById('dots');
